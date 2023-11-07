@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesheets/main.scss"],"names":[],"mappings":"AACA,KACE","file":"main.f0073bb2.css","sourceRoot":"../views","sourcesContent":["// COMMON\nbody {\n  background-color: orange;\n}\n"]}
