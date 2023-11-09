@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// 1. 여기에서 라우터 파일 불러오기
 var indexRouter = require('./routes/index');
-
 
 
 var app = express();
@@ -21,6 +21,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'dist')));
 
+// 2. 여기에 라우터랑 URL이랑 연결하기
 app.use('/', indexRouter);
 
 

@@ -1,4 +1,98 @@
 // COMMON
 body {
-  background-color: orange;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  @font-face {
+      font-family: GodoB;
+      src: url(../../public/font/GodoB.ttf);
+    }
+  font-family: GodoB, sans-serif;
+}
+img {
+  display: block;
+}
+.inner {
+  width: 335px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+// BODY
+section.login-section {
+  .login_bg {
+    position: fixed;
+  }
+  > .inner {
+    .main {
+      position: absolute;
+      top: 114px;
+      left: 0;
+      right: 0;
+      .title {
+        margin-bottom: 73px;
+        .login_human {
+          width: 166px;
+          height: 166px;
+          margin: 0 auto;
+        }
+        .description {
+          color: #fff;
+          font-size: 38px;
+          text-align: center;
+        }
+      }
+      .login-area {
+        .inputs {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .input_id {
+            font-size: 22px;
+            color: #5D5D5D;
+            width:272px;
+            height: 39px;
+            border-radius: 10px; 
+            outline: none;
+            margin-bottom: 35px;
+          }
+          .input_pw {
+            font-size: 22px;
+            color: #5D5D5D;
+            width: 272px;
+            height: 39px;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 37px;
+          }
+        }
+        .btn_login {
+          width: 184px;
+          height: 47px;
+          border-radius: 10px;
+          margin: 0 auto;
+          background: linear-gradient(270deg, #6554D4 50.32%, #AB7EF4 100%);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+          @font-face {
+            font-family: GodoM;
+            src: url(../../public/font/GodoM.ttf);
+          }
+          font-family: GodoM, sans-serif;
+          font-size: 22px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          margin-bottom: 86px;
+        }
+        .sns_login {
+          .kakao_login {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
 }

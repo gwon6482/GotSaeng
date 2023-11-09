@@ -1,0 +1,67 @@
+/* COMMON */
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  @font-face {
+      font-family: GodoB;
+      src: url(/GodoB.88cfaf8f.ttf);
+    }
+  font-family: GodoB, sans-serif;
+}
+img {
+  display: block;
+}
+.inner {
+  width: 335px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+/* BODY */
+.login-section {
+
+}
+.login-section .login_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.login-section .title {
+  background-color: royalblue;
+  /* position: absolute; */
+  top: 114px;
+  left: 0;
+  right: 0;
+  margin-bottom: 60px;
+}
+.login-section .title .login_human {
+  width: 166px;
+  height: 166px;
+  margin: 0 auto;
+}
+.login-section .title .description {
+  color: white;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+}
+.login-section .loginbox {
+  /* position: absolute; */
+}
+.login-section .loginbox .input_id {
+
+}
+.login-section .loginbox .input_pw {
+
+}
+
+
+
+/* font-family: GodoB, sans-serif;
+font-size: 38px;
+background-color: royalblue; */
+
+/*# sourceMappingURL=/main.6f574124.css.map */

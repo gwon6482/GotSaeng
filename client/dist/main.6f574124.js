@@ -168,11 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"stylesheets/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"stylesheets/main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../public/font/GodoB.ttf":[["GodoB.88cfaf8f.ttf","../public/font/GodoB.ttf"],"../public/font/GodoB.ttf"],"./../../public/font/GodoM.ttf":[["GodoM.2969eebc.ttf","../public/font/GodoM.ttf"],"../public/font/GodoM.ttf"],"_css_loader":"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../../public/font/GodoB.ttf":[["GodoB.88cfaf8f.ttf","../public/font/GodoB.ttf"],"../public/font/GodoB.ttf"],"_css_loader":"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -342,4 +342,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../.nvm/versions/node/v18.18.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.ca7b36d6.js.map
+//# sourceMappingURL=/main.6f574124.js.map
